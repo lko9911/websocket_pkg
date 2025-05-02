@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'websocket_ros'
+package_name = 'websocket_pkg'
 
 setup(
     name=package_name,
@@ -19,7 +19,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ws_to_ros_publisher = websocket_ros.ws_to_ros_publisher:main',
+            'ws_to_ros_publisher = websocket_pkg.ws_to_ros_publisher:main',
         ],
     },
 )
