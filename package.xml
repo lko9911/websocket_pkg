@@ -1,0 +1,10 @@
+<package format="3">
+  <name>websocket_ros</name>
+  <version>0.0.0</version>
+  <description>WebSocket to ROS2</description>
+  <maintainer email="xxx">xxx</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+</package>
